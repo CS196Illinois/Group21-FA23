@@ -1,11 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import streamlit as st
+
+st.text('hello')
 # In[ ]:
 
 
-get_ipython().run_line_magic('pip', 'install obsei[all]')
-get_ipython().run_line_magic('pip', 'install transformers')
+from distutils.sysconfig import get_python_inc
+from sysconfig import get_python_version
+
+
+#get_python_version().run_line_magic('pip', 'install obsei[all]')
+#get_python_inc().run_line_magic('pip', 'install transformers')
 
 
 # In[ ]:
