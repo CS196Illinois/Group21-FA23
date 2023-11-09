@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-#chatgpt told me to do this...
-from pydantic_settings import BaseSettings
 
 import streamlit as st
 
@@ -26,9 +24,9 @@ import sys
 
 
 # In[ ]:
-
-
 from obsei.source.youtube_scrapper import YoutubeScrapperSource, YoutubeScrapperConfig
+
+#from obsei.source.youtube_scrapper import YoutubeScrapperSource, YoutubeScrapperConfig
 from obsei.analyzer.classification_analyzer import (
     ClassificationAnalyzerConfig,
     ZeroShotClassificationAnalyzer
