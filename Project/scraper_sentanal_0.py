@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#chatgpt told me to do this...
+from pydantic_settings import BaseSettings
+
 import streamlit as st
 
 st.text('hello')
